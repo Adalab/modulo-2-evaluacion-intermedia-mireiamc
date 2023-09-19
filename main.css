@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    height: 100vh;;
+    height: 100vh;
 }
 
 .form {
@@ -22,8 +22,10 @@
     flex-direction: column;
     align-items: center;
     align-content: center;
+    padding: 15px;
+    border: 2px solid grey;
     
-    width: 50vw;
+    width: 75vw;
     gap: 20px;
 }
 
@@ -33,16 +35,33 @@
     text-align: center;
 }
 
+.form-label {
+    color: grey;
+    font-size: 16px;
+}
+
 .results {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+
 }
 
 .game-text {
     background-color: orange;
-    border-radius: 100;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
 
+.reset-btn {
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
 
+.btn {
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
