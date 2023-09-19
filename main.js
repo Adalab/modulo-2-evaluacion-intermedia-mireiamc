@@ -88,4 +88,4 @@ function handleReset(ev){
 //Eventos
 
 btnPlay.addEventListener('click', handleClick);
-btnReset.addEventListener('click', handleReset)
+btnReset.addEventListener('click', handleReset);
